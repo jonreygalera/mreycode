@@ -15,7 +15,6 @@ const PhotoCard: React.FC<IPhotoCardProps> = (props) => {
     <Box 
       className={tailwindUtil(`
         absolute 
-        border-2 
         rounded-3xl 
         overflow-hidden 
         cursor-pointer

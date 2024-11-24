@@ -11,6 +11,7 @@ const Button: React.FC<IButtonProps> = (props) => {
 
   return (
     <button 
+      type="button"
       className={tailwindUtil(className)}
       {...others}
     >
