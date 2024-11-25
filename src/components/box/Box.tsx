@@ -1,13 +1,8 @@
 import React from 'react';
 import { tailwindUtil } from '../../utils/tailwindUtil';
-import { className } from '../../types/TClassName';
+import IBoxProps from '../../interface/IBoxProps';
 
-interface Props {
-  children?: React.ReactNode,
-  className?: className
-}
-
-const Box: React.FC<Props> = ({children, className, ...others}) => {
+const Box: React.FC<IBoxProps> = ({children, className, ...others}) => {
   return (
     children ? (
       <div 
